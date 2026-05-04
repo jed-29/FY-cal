@@ -1,4 +1,5 @@
 import re
+import hashlib
 from datetime import date
 import requests
 from bs4 import BeautifulSoup
@@ -29,7 +30,10 @@ MONTHS = {
     "decembre": 12,
 }
 
-NOISE_WORDS = [
+NOISE_EXACT = {
+    "professionnel",
+    "partager la page",
+    "partager sur twitter",
     "partager par courriel",
     "partager sur facebook",
     "partager sur linkedin",
@@ -37,21 +41,26 @@ NOISE_WORDS = [
     "votre avis sur le site",
     "paramètres d’affichage",
     "paramètres d'affichage",
-    "accessibilité",
     "contact et prise de rdv",
     "service-public.gouv.fr",
     "stationnement.gouv.fr",
-    "format attendu",
-    "objet du message",
+    "format attendu : prenom.nom@exemple.fr",
+    "objet du message : informations du site impots.gouv",
     "votre adresse électronique",
-    "tous les champs sont obligatoires",
+    "tous les champs sont obligatoires.",
     "laisser ce champ vide",
-    "choisissez un thème",
     "utilise les paramètres système",
     "les engagements de la dgfip",
     "sécurité informatique",
     "collectivités locales",
-    "sourds et malentendants",
+    "sourds et malentendants - accéo",
+}
+
+NOISE_CONTAINS = [
+    "choisissez un thème",
+    "accessibilité",
+    "partager sur",
+    "copier dans le presse-papier",
 ]
 
 
@@ -60,8 +69,15 @@ def clean_text(text):
 
 
 def is_noise(text):
-    lower = text.lower()
-    return any(word in lower for word in NOISE_WORDS)
+    lower = clean_text(text).lower()
+
+    if not lower:
+        return True
+
+    if lower in NOISE_EXACT:
+        return True
+
+    return any(noise in lower for noise in NOISE_CONTAINS)
 
 
 def detect_month_year(soup):
@@ -91,8 +107,36 @@ def make_uid(event_date, title):
     """
     UID stable : évite qu'Outlook voie les événements comme nouveaux à chaque génération.
     """
-    safe_title = re.sub(r"[^a-zA-Z0-9]+", "-", title.lower()).strip("-")
-    return f"{event_date.isoformat()}-{safe_title[:80]}@calendrier-fiscal-impots"
+    raw = f"{event_date.isoformat()}-{title}".encode("utf-8")
+    digest = hashlib.sha1(raw).hexdigest()
+    return f"{digest}@calendrier-fiscal-impots"
+
+
+def build_description(lines):
+    """
+    Nettoie les descriptions :
+    - supprime les lignes parasites ;
+    - supprime les doublons ;
+    - conserve l'ordre.
+    """
+    clean_lines = []
+    seen = set()
+
+    for line in lines:
+        line = clean_text(line)
+
+        if is_noise(line):
+            continue
+
+        if line in seen:
+            continue
+
+        seen.add(line)
+        clean_lines.append(line)
+
+    clean_lines.append(f"Source : {URL}")
+
+    return "\n".join(clean_lines)
 
 
 def main():
@@ -116,52 +160,30 @@ def main():
     current_day = None
     current_title = None
     current_description = []
-    events_count = 0
+    events = []
 
     def save_event():
-        nonlocal current_day, current_title, current_description, events_count
+        nonlocal current_day, current_title, current_description, events
 
         if current_day is None or not current_title:
             return
 
         title = clean_text(current_title)
 
-        if not title or is_noise(title):
+        if is_noise(title):
             return
 
-        description_lines = []
-
-        for line in current_description:
-            line = clean_text(line)
-
-            if not line:
-                continue
-
-            if is_noise(line):
-                continue
-
-            if line == title:
-                continue
-
-            description_lines.append(line)
-
         event_date = date(year, month, current_day)
+        description = build_description(current_description)
 
-        event = Event()
-        event.name = title
-        event.begin = event_date
-        event.make_all_day()
-        event.uid = make_uid(event_date, title)
-        event.description = "\n".join(description_lines + [f"Source : {URL}"])
-
-        calendar.events.add(event)
-        events_count += 1
+        events.append({
+            "date": event_date,
+            "title": title,
+            "description": description,
+        })
 
     for element in elements:
         text = clean_text(element.get_text(" "))
-
-        if not text:
-            continue
 
         if is_noise(text):
             continue
@@ -200,14 +222,27 @@ def main():
         if current_day is not None and current_title:
             current_description.append(text)
 
+    # Sauvegarde du dernier événement.
     save_event()
+
+    # Tri logique pour faciliter la lecture du .ics dans GitHub.
+    events.sort(key=lambda item: (item["date"], item["title"]))
+
+    for item in events:
+        event = Event()
+        event.name = item["title"]
+        event.begin = item["date"]
+        event.make_all_day()
+        event.uid = make_uid(item["date"], item["title"])
+        event.description = item["description"]
+        calendar.events.add(event)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.writelines(calendar.serialize_iter())
 
     print(f"Calendrier généré : {OUTPUT_FILE}")
     print(f"Mois détecté : {month}/{year}")
-    print(f"Nombre d'événements générés : {events_count}")
+    print(f"Nombre d'événements générés : {len(events)}")
 
 
 if __name__ == "__main__":
