@@ -238,7 +238,6 @@ def main():
         event.description = item["description"]
         calendar.events.add(event)
 
-    calendar.extra.append(("X-WR-CALNAME", f"Calendrier fiscal - {SCRIPT_VERSION}"))
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.writelines(calendar.serialize_iter())
