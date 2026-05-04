@@ -7,7 +7,7 @@ from ics import Calendar, Event
 
 URL = "https://www.impots.gouv.fr/professionnel/calendrier-fiscal"
 OUTPUT_FILE = "calendrier-fiscal.ics"
-
+SCRIPT_VERSION = "clean-v3-2026-05-uid-hash"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 calendrier-fiscal-outlook"
 }
@@ -140,6 +140,7 @@ def build_description(lines):
 
 
 def main():
+    print(f"Version du script : {SCRIPT_VERSION}")
     response = requests.get(URL, headers=HEADERS, timeout=30)
     response.raise_for_status()
 
@@ -237,6 +238,8 @@ def main():
         event.description = item["description"]
         calendar.events.add(event)
 
+    calendar.extra.append(("X-WR-CALNAME", f"Calendrier fiscal - {SCRIPT_VERSION}"))
+    
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.writelines(calendar.serialize_iter())
 
