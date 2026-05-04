@@ -1,13 +1,19 @@
 import re
 import hashlib
 from datetime import date
+from urllib.parse import urljoin
+
 import requests
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
 
-URL = "https://www.impots.gouv.fr/professionnel/calendrier-fiscal"
+BASE_URL = "https://www.impots.gouv.fr"
+START_URL = "https://www.impots.gouv.fr/professionnel/calendrier-fiscal"
 OUTPUT_FILE = "calendrier-fiscal.ics"
-SCRIPT_VERSION = "clean-v3-2026-05-uid-hash"
+
+# Nombre de mois à récupérer, mois courant inclus.
+MONTHS_TO_FETCH = 12
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 calendrier-fiscal-outlook"
 }
@@ -30,66 +36,26 @@ MONTHS = {
     "decembre": 12,
 }
 
-NOISE_EXACT = {
-    "professionnel",
-    "partager la page",
-    "partager sur twitter",
-    "partager par courriel",
-    "partager sur facebook",
-    "partager sur linkedin",
-    "copier dans le presse-papier",
-    "votre avis sur le site",
-    "paramètres d’affichage",
-    "paramètres d'affichage",
-    "contact et prise de rdv",
-    "service-public.gouv.fr",
-    "stationnement.gouv.fr",
-    "format attendu : prenom.nom@exemple.fr",
-    "objet du message : informations du site impots.gouv",
-    "votre adresse électronique",
-    "tous les champs sont obligatoires.",
-    "laisser ce champ vide",
-    "utilise les paramètres système",
-    "les engagements de la dgfip",
-    "sécurité informatique",
-    "collectivités locales",
-    "sourds et malentendants - accéo",
-}
-
-NOISE_CONTAINS = [
-    "choisissez un thème",
-    "accessibilité",
-    "partager sur",
-    "copier dans le presse-papier",
-]
-
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def is_noise(text):
-    lower = clean_text(text).lower()
-
-    if not lower:
-        return True
-
-    if lower in NOISE_EXACT:
-        return True
-
-    return any(noise in lower for noise in NOISE_CONTAINS)
-
-
 def detect_month_year(soup):
     """
-    Détecte le mois et l'année affichés sur la page.
+    Détecte le mois et l'année du calendrier affiché.
     Exemple : Mai 2026
     """
-    page_text = soup.get_text(" ")
+    month_title = soup.find(id="mois_calendrier")
+
+    if month_title:
+        text = clean_text(month_title.get_text(" "))
+    else:
+        text = soup.get_text(" ")
 
     match = re.search(
         r"\b(janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+(\d{4})\b",
-        page_text,
+        text,
         re.IGNORECASE,
     )
 
@@ -103,148 +69,171 @@ def detect_month_year(soup):
     return month, year
 
 
-def make_uid(event_date, title):
+def make_uid(event_date, title, description):
     """
-    UID stable : évite qu'Outlook voie les événements comme nouveaux à chaque génération.
+    UID stable et unique.
+    On inclut la description pour éviter les collisions quand deux événements ont le même titre le même jour.
     """
-    raw = f"{event_date.isoformat()}-{title}".encode("utf-8")
+    raw = f"{event_date.isoformat()}|{title}|{description}".encode("utf-8")
     digest = hashlib.sha1(raw).hexdigest()
     return f"{digest}@calendrier-fiscal-impots"
 
 
-def build_description(lines):
-    """
-    Nettoie les descriptions :
-    - supprime les lignes parasites ;
-    - supprime les doublons ;
-    - conserve l'ordre.
-    """
-    clean_lines = []
+def extract_description(card):
+    desc = card.find(class_="fr-card__desc")
+
+    if not desc:
+        return ""
+
+    # Supprime les badges "professionnel" s'ils sont inclus dans le bloc.
+    for badge in desc.find_all(class_=re.compile("fr-badge")):
+        badge.decompose()
+
+    lines = []
+
+    for element in desc.find_all(["p", "li"]):
+        text = clean_text(element.get_text(" "))
+        if text:
+            lines.append(text)
+
+    # Si aucun p/li n'est trouvé, on prend le texte brut.
+    if not lines:
+        text = clean_text(desc.get_text(" "))
+        if text:
+            lines.append(text)
+
+    # Suppression des doublons en conservant l'ordre.
+    unique_lines = []
     seen = set()
 
     for line in lines:
-        line = clean_text(line)
-
-        if is_noise(line):
+        if line.lower() == "professionnel":
             continue
 
         if line in seen:
             continue
 
         seen.add(line)
-        clean_lines.append(line)
+        unique_lines.append(line)
 
-    clean_lines.append(f"Source : {URL}")
+    return "\n".join(unique_lines)
 
-    return "\n".join(clean_lines)
+
+def extract_events_from_page(soup, source_url):
+    month, year = detect_month_year(soup)
+
+    container = soup.find(id="calendrier_items")
+
+    if not container:
+        raise ValueError("Impossible de trouver le bloc calendrier_items.")
+
+    events = []
+    current_day = None
+
+    # On lit uniquement les titres de dates h3 et les cartes d'événements.
+    items = container.find_all(["h3", "div"], recursive=True)
+
+    for item in items:
+        classes = item.get("class", [])
+
+        # Détection d'un bloc date : "À partir du 04", puis "mai".
+        if item.name == "h3":
+            sr_only = item.find(class_="fr-sr-only")
+            if sr_only and "À partir du" in sr_only.get_text(" "):
+                day_match = re.search(r"\b(\d{1,2})\b", item.get_text(" "))
+                if day_match:
+                    current_day = int(day_match.group(1))
+            continue
+
+        # Détection d'une carte événement.
+        if item.name == "div" and "fr-card" in classes:
+            if current_day is None:
+                continue
+
+            title_tag = item.find("h4", class_=re.compile("fr-card__title"))
+
+            if not title_tag:
+                continue
+
+            title = clean_text(title_tag.get_text(" "))
+            description = extract_description(item)
+
+            event_date = date(year, month, current_day)
+
+            full_description = description
+            if full_description:
+                full_description += f"\nSource : {source_url}"
+            else:
+                full_description = f"Source : {source_url}"
+
+            events.append({
+                "date": event_date,
+                "title": title,
+                "description": full_description,
+            })
+
+    next_button = soup.find("button", class_=re.compile("after-month"))
+    next_url = None
+
+    if next_button and next_button.get("data-link"):
+        next_url = urljoin(BASE_URL, next_button["data-link"])
+
+    return events, next_url, month, year
+
+
+def fetch_page(url):
+    response = requests.get(url, headers=HEADERS, timeout=30)
+    response.raise_for_status()
+    return BeautifulSoup(response.text, "html.parser")
 
 
 def main():
-    print(f"Version du script : {SCRIPT_VERSION}")
-    response = requests.get(URL, headers=HEADERS, timeout=30)
-    response.raise_for_status()
-
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    month, year = detect_month_year(soup)
-
     calendar = Calendar()
     calendar.creator = "github.com/jed-29/FY-cal"
 
-    main_content = soup.find("main") or soup.body
+    all_events = []
+    current_url = START_URL
+    visited_urls = set()
 
-    elements = main_content.find_all(
-        ["h1", "h2", "h3", "h4", "h5", "p", "li", "span"],
-        recursive=True
-    )
+    for index in range(MONTHS_TO_FETCH):
+        if not current_url:
+            print("Plus de lien vers le mois suivant. Arrêt.")
+            break
 
-    current_day = None
-    current_title = None
-    current_description = []
-    events = []
+        if current_url in visited_urls:
+            print(f"URL déjà visitée, arrêt pour éviter une boucle : {current_url}")
+            break
 
-    def save_event():
-        nonlocal current_day, current_title, current_description, events
+        visited_urls.add(current_url)
 
-        if current_day is None or not current_title:
-            return
+        print(f"Récupération du mois {index + 1}/{MONTHS_TO_FETCH} : {current_url}")
 
-        title = clean_text(current_title)
+        soup = fetch_page(current_url)
+        events, next_url, month, year = extract_events_from_page(soup, current_url)
 
-        if is_noise(title):
-            return
+        print(f"  Mois détecté : {month}/{year}")
+        print(f"  Événements trouvés : {len(events)}")
 
-        event_date = date(year, month, current_day)
-        description = build_description(current_description)
+        all_events.extend(events)
+        current_url = next_url
 
-        events.append({
-            "date": event_date,
-            "title": title,
-            "description": description,
-        })
+    # Tri logique dans le fichier.
+    all_events.sort(key=lambda item: (item["date"], item["title"], item["description"]))
 
-    for element in elements:
-        text = clean_text(element.get_text(" "))
-
-        if is_noise(text):
-            continue
-
-        # La vraie structure du calendrier fiscal est du type :
-        # "À partir du 04"
-        day_match = re.search(r"À partir du\s+(\d{1,2})", text, re.IGNORECASE)
-
-        if day_match:
-            save_event()
-            current_day = int(day_match.group(1))
-            current_title = None
-            current_description = []
-            continue
-
-        # Ignore le nom du mois seul : "mai", "juin", etc.
-        if text.lower() in MONTHS:
-            continue
-
-        # Ignore le titre global du mois : "Mai 2026"
-        if re.search(
-            r"\b(janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{4}\b",
-            text,
-            re.IGNORECASE,
-        ):
-            continue
-
-        # Les titres d'échéances sont généralement dans h3 / h4 / h5.
-        if element.name in ["h3", "h4", "h5"] and current_day is not None:
-            save_event()
-            current_title = text
-            current_description = []
-            continue
-
-        # Les paragraphes et listes deviennent la description de l'événement courant.
-        if current_day is not None and current_title:
-            current_description.append(text)
-
-    # Sauvegarde du dernier événement.
-    save_event()
-
-    # Tri logique pour faciliter la lecture du .ics dans GitHub.
-    events.sort(key=lambda item: (item["date"], item["title"]))
-
-    for item in events:
+    for item in all_events:
         event = Event()
         event.name = item["title"]
         event.begin = item["date"]
         event.make_all_day()
-        event.uid = make_uid(item["date"], item["title"])
         event.description = item["description"]
+        event.uid = make_uid(item["date"], item["title"], item["description"])
         calendar.events.add(event)
 
-    
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.writelines(calendar.serialize_iter())
 
     print(f"Calendrier généré : {OUTPUT_FILE}")
-    print(f"Mois détecté : {month}/{year}")
-    print(f"Nombre d'événements générés : {len(events)}")
+    print(f"Nombre total d'événements générés : {len(all_events)}")
 
 
 if __name__ == "__main__":
