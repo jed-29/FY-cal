@@ -2,231 +2,939 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:github.com/jed-29/FY-cal
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Entreprises soumises à la TVA
-UID:ea8344d928ed9246d14a1a790483441d1381c0a1@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois d'août 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
 SUMMARY:Taxe sur les conventions d'assurances
-UID:8f43e9deeb983f072bd4b5eb7280ca66d275b983@calendrier-fiscal-impots
+UID:f0be0d9e354b8fe3dd2cd14dab46f3e25cfb302c@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260512
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Prélèvement à la source – PASRAU
-UID:d21728c952f4b23e712f78371894f9cbb5e3a5b6@calendrier-fiscal-impots
+DTSTART;VALUE=DATE:20260805
+DESCRIPTION:Date limite de dépôt du bulletin d'échéance n° 3525 bis relatif au deuxième trimestre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Agriculteurs soumis au régime simplifié agricole et déposant une CA12A annuelle
+UID:544d398253977dbb5473422d08dc19eb6fa8ec72@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:TVA - régime simplifié
-UID:26be49eb1e10cba844010a7b027e0786b58f7f07@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de souscription de la télédéclaration de la valeur ajoutée et des effectifs salariés n° 1330-CVAE-SD.\nDélai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:CVAE - Echéance télédéclaration de la valeur ajoutée et des effectifs salariés
-UID:ad227188af08960272949bb413570e40b5294ecc@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260526
-DESCRIPTION:À partir de cette date et avant l’échéance de paiement\, les avis d’acompte dématérialisés sont consultables dans l'espace professionnel sur le site impots.gouv.fr.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:CFE et/ou IFER (acompte) : Mise en ligne des avis d'acompte
-UID:5f19ecbb3912bfb92566abf1ba5a4bffc9850dd3@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Prélèvement à la source – DSN
-UID:7b332e2d272d9bfb201cccd495593be42084c56a@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Imposition minimale mondiale des groupes (Pilier 2)
-UID:89367dfb2620a372a95f32b98b8722584640c08a@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Date limite de :\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Prélèvement et retenues à la source sur les RCM
-UID:9fd91dfd6e25bd0a815d65990d9198bb81b32972@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe Générale sur les Activités Polluantes (TGAP)
-UID:6a01f158cbccb814a56385a9d3f13e21e3ab96f6@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de dépôt de la déclaration n° 2070 pour l'imposition à taux réduit des revenus du patrimoine et de la déclaration n° 2065 - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures - pour les activités lucratives imposables au taux normal (pour les exercices clos au 31/12/2025).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Associations
-UID:bb2306a2ea9bb7214dc3dda793c6b42fa1451904@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:CVAE - Date limite de souscription de la télédéclaration n° 1329-DEF de liquidation et de régularisation de la CVAE 2025\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:CVAE - Echéance solde 2025
-UID:3f148945632a10dce9d6741fe0b027f753bd2337@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de dépôt de la déclaration n° 2036 - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Sociétés civiles de moyens
-UID:c8ae631283d739d1766ed161fddf314561f695d6@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Pour les redevables au régime simplifié de TVA ne clôturant pas au 31 décembre\, la date limite de paiement est fixée au dernier jour du 3 e mois suivant la clôture de l’exercice (cinquième jour du cinquième mois suivant la clôture de l’exercice pour les redevables au régime simplifié de l’agriculture de TVA).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe sur les produits phytopharmaceutiques
-UID:3b98f960511241bc6295e6010cd5279c507d8072@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260526
-DESCRIPTION:Dépôt et paiement de l’annexe 3310 A pour les non redevables de la TVA.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe sur les produits phytopharmaceutiques
-UID:496151bfd4ad7edf4adac3757ade449e747a2675@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de dépôt de la déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France\, dont l'exercice est clos le 31/12/2025.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Sociétés soumises à la retenue à la source
-UID:c9c48cf89d96e2b82eded6c0f2ebc735a6a43017@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de :\nsouscription de la déclaration n° 2072 des résultats des SCI non soumises à l'IS - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\npaiement\, le cas échéant\, de la contribution sur les revenus locatifs à l'appui de la déclaration n° 2072 \;\ndépôt de la déclaration n° 2071 des résultats des sociétés immobilières de copropriété n° 1655 ter.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Résultats soumis à l'impôt sur le revenu
-UID:5befaa8a1fb810011689d5eaebedab94b7d56ced@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Pour les redevables au régime réel simplifié de TVA ne clôturant pas au 31 décembre\, dans les 3 mois qui suivent la clôture de l’exercice.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe sur les services numériques (TSN)
-UID:0685fc8c03922aa8a2855c7ca9afd091e05ad641@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260504
-DESCRIPTION:Date limite de dépôt et de paiement du bordereau n° 2485-SD pour les entreprises ne s’étant pas déjà acquittées de la PEEC auprès d'Action Logement Services.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe annexe : PEEC
-UID:41b53ab18dbc6ec3e2d34af37c924739051f65e6@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe sur les produits phytopharmaceutiques
-UID:0b31ffb75773756335d13f32208178d99e4f2163@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de souscription de la déclaration de résultats et ses annexes de l'année 2025 pour les professionnels soumis à l'impôt sur le revenu dans la catégorie des BIC\, des BNC et des BA - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Entreprises individuelles soumises à l'impôt sur le revenu : BIC\, BNC et BA
-UID:b0bbd87aa602a4cbf127f8052981d98d484208f8@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe due par les employeurs de main d’ œuvre étrangère
-UID:ed656850a383fdfb130d198bcaf8fff30a9ff5e0@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Sociétés soumises à l'impôt sur les sociétés
-UID:54abe16e1c10cb68bf5eca108a3d008933188280@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260504
-DESCRIPTION:Pour les redevables au régime simplifié de TVA ne clôturant pas au 31 décembre\, la date limite de paiement est fixée au dernier jour du 3 e mois suivant la clôture de l’exercice (cinquième jour du cinquième mois suivant la clôture de l’exercice pour les redevables au régime simplifié de l’agriculture de TVA).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe annuelle sur les véhicules lourds de transport de marchandises
-UID:c2a81b1a2c69c33e1c34fe4a5ec3b44668d52622@calendrier-fiscal-impots
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Pour les usagers qui n’ont pas déjà opté pour le prélèvement automatique\, il est possible jusqu’à cette date d'adhérer au prélèvement mensuel. Vous n’aurez pas à payer l’acompte. Votre première mensualité sera l’addition de celles dues depuis janvier. L'adhésion peut être effectuée sur le site impots.gouv.fr\, ou en téléphonant au 0809 401 401 (du lundi au vendredi de 8h30 à 19h\, service gratuit + prix de l'appel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:CFE et/ou IFER (acompte) : Adhésion au prélèvement mensuel
+UID:369cfa396800e9e1cec84258a906f11eefbd6362@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260505
 DESCRIPTION:Date limite de dépôt de la déclaration de solde n°2020-TGAP au titre de la TGAP 2025 y compris déchets pour les redevables soumis au régime simplifié d’imposition y compris RSA en TVA.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
 SUMMARY:Taxe Générale sur les Activités Polluantes (TGAP)
-UID:f7cce762d33720a7ca9838cdcfb289a61f7c2338@calendrier-fiscal-impots
+UID:bf36707bd69e94c1ee5e9efd93a35d2cb99bdafd@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de télétransmission du bulletin d'échéance n° 3525 bis relatif au premier trimestre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Agriculteurs soumis au régime simplifié agricole et déposant une déclaration CA12A annuelle
-UID:fd6e566048b8b814671b4c00e52516c15185d93e@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de souscription des déclarations n os 2071 et 2072 - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Sociétés civiles immobilières
-UID:553a522a41aca9608ba93822dc55533b759ce4f8@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Si l'entreprise relève d'un régime simplifié d'imposition ou du régime simplifié agricole : les taxes doivent être déclarées et payées sur la déclaration 3517 CA12.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Taxe sur les véhicules de tourisme (taxe sur les émissions de dioxyde de carbone \; taxe sur l’ancienneté des véhicules)
-UID:3e957e8d75e54b86d7ebb4c2ec2f031e80e0ac39@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260505
-DESCRIPTION:Date limite de souscription du formulaire n° 3517 AGR CA12A.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:TVA - régime simplifié agricole
-UID:d9150da32f8c282a59bae772711b11aa27f1c5fd@calendrier-fiscal-impots
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260530
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+DTSTART;VALUE=DATE:20260831
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1 er août 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
 SUMMARY:TVA - franchise en base
-UID:737520df973d8cd8a29debb556c68cebe9d0c539@calendrier-fiscal-impots
+UID:b34c9a4d4038f49fdadcc3b281da0e4ad2209f37@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260907
+DESCRIPTION:Date limite pour la télédéclaration DSN d’août 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Prélèvement à la source – DSN
+UID:97b035ea5c03bf2f0739c1709389299a7868683c@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois de novembre 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois de novembre 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:c04da8f95a87ca9a191025ad52d207427bc21759@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261125
+DESCRIPTION:Date limite de dépôt de la déclaration mensuelle n°2040-TIC pour les redevables de l’accise sur l’électricité en rythme mensuel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:024fa7cc4b552584aff73749a94738d4e79a4eb0@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261113
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en octobre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Entreprises soumises à la TVA
+UID:0ed8e38d0f8ceadb145080ce2a1a72427fc499d2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261231
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1er décembre 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:TVA - franchise en base
+UID:8b36d6c770f2f7c720ddd39f556d612ab30c299c@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en mai (redevables mensuels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Taxe sur les salaires
+UID:43eb0c59270c89db4a6116d68b9fa769a8633f08@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:Date limite de dépôt et de paiement du bordereau n° 2485-SD pour les entreprises ne s’étant pas déjà acquittées de la PEEC auprès d'Action Logement Services.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe annexe : PEEC
+UID:eaaac699a13657b1ede3e1f263898ba89511f27a@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Date limite de versement de l’acompte dû (acquitté à l'appui de la déclaration n° 2777 relative au mois de septembre 2026 déposée en octobre 2026) au titre :\nde la contribution sociale généralisée\, du prélèvement de solidarité et de la contribution pour le remboursement de la dette sociale \;\net du prélèvement forfaitaire et de la retenue à la source.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Retenue à la source - Prélèvement libératoire
+UID:9a88ad9d139dd747fdfe0e6368b10733fd5ddd60@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DESCRIPTION:Date limite de paiement pour les redevables au régime réel simplifié de TVA (y compris au régime simplifié de l’agriculture) clôturant le 31 décembre 2025.\nPour les redevables au régime simplifié de TVA ne clôturant pas au 31 décembre\, la date limite de paiement est fixée au dernier jour du 3 e mois suivant la clôture de l’exercice (cinquième jour du cinquième mois suivant la clôture de l’exercice pour les redevables au régime simplifié de l’agriculture de TVA).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe annuelle sur les véhicules lourds de transport de marchandises
+UID:032815283ab2bbb34a59219e53e6c3c0400ef1b2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) de juin 2026 et le télépaiement (paiement mensuel et option de paiement trimestriel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Prélèvement à la source – PASRAU
+UID:569df1748917997cf000d8abafe628e5418b3eaf@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de souscription du formulaire de TVA n° 3517 CA 12 pour les entreprises clôturant le 31 décembre 2025.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:TVA - régime simplifié
+UID:43f88b77aed2c0d8087d7b69c478b7a29ebf8b11@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:Date limite pour la télédéclaration DSN de juin 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel et option de paiement trimestriel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Prélèvement à la source – DSN
+UID:7e5a7d5bcb39fa25a471a45cda2549e2972e2f6d@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260817
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en juillet (redevables mensuels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Taxe sur les salaires
+UID:cacf4a9095e7aa8dc2226aa935e14fa9b2cb4dae@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de paiement pour les redevables au régime réel simplifié de TVA (y compris au régime simplifié de l’agriculture) clôturant le 31 décembre 2025.\nPour les redevables au régime simplifié de TVA ne clôturant pas au 31 décembre\, la date limite de paiement est fixée au dernier jour du 3 e mois suivant la clôture de l’exercice (cinquième jour du cinquième mois suivant la clôture de l’exercice pour les redevables au régime simplifié de l’agriculture de TVA).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe sur les produits phytopharmaceutiques
+UID:f43afd42e33b4773d6f4a77afea0692cca64ec02@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DESCRIPTION:Dépôt et paiement de l’annexe 3310 A pour les non redevables de la TVA.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe sur les produits phytopharmaceutiques
+UID:ebe988bc114efbf911988e5c0de4610001c6e1c2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261211
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en novembre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Entreprises soumises à la TVA
+UID:84b0d244c86c2aaf4ca3d4923e3d4a2110671008@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260817
+DESCRIPTION:Date limite de télépaiement du solde de l’impôt sur les sociétés (IS) et de la contribution sociale sur l’IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exercice est clos le 30 avril 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Sociétés soumises à l'IS
+UID:78dc23bfe30bae2b59d7fce3720630e0b5d3c247@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260630
+DESCRIPTION:Il est possible d'adhérer au prélèvement mensuel pour l’année en cours (2026) jusqu’à cette date.\nLe prélèvement interviendra le 15 du mois suivant l’adhésion.\nL’adhésion pour l’année suivante peut être effectuée toute l’année. Seule la date d’effet de l’adhésion varie :\ndu 01/01/N au 15/12/N : l’adhésion prend effet en janvier N+1 \;\ndu 16/12/N au 31/12/N : l’adhésion prend effet en février N+1 (le prélèvement de février N+1 comprendra les mensualités de janvier et de février N+1).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:CFE et/ou IFER : Adhésion au prélèvement mensuel
+UID:6f163548a548dd311ef8401f32c05f7067ac1c3c@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Pour les usagers qui ne sont pas mensualisés ou qui n'ont pas opté pour le prélèvement à l’échéance\, il est possible jusqu’à cette date de payer directement en ligne (télérèglement).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:CFE et/ou IFER (acompte) : Date limite de paiement
+UID:910bf6e954694423a78813d5324cf68eb3cbed4e@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261228
+DESCRIPTION:Date limite de dépôt de la déclaration mensuelle n°2040-TIC pour les redevables de l’accise sur l’électricité en rythme mensuel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:e0a41751bceb2f2ecb847b32ef960cc9d27bcb4e@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261105
+DESCRIPTION:Date limite pour la télédéclaration DSN d’octobre 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Prélèvement à la source – DSN
+UID:dee59d1c06fd2c3c1546bf005a2b22adc257917b@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en avril (redevables mensuels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+DESCRIPTION:Date limite pour la télédéclaration DSN d’avril 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Prélèvement à la source – DSN
+UID:5f5a2b2dfce76f858644fab6984838f163f032d6@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260831
+DESCRIPTION:Date limite de souscription de :\nla déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Entreprises dont l'exercice est clos le 31 mai 2026
+UID:8fad8e73b2bbd95537de497fca6a13f2088c030e@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261211
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en novembre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Entreprises soumises à la TVA
+UID:3d0f2185b0808ab88edea2446d6ba862fceecce1@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:Entre les 15 et 24 juillet 2026\, dépôt et paiement de la déclaration mensuelle ou trimestrielle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:TVA régime réel normal d'imposition
+UID:4fb4be338baea99c4760bd95e9ba30ad216defbc@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Entre les 15 et 26 octobre 2026 : date limite de dépôt de la déclaration d’acompte n°2020-TGAP-AC au titre de la TGAP 2026 pour les redevables soumis au régime réel normal en TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Taxe Générale sur les Activités Polluantes (TGAP)
+UID:5221ede8693804784c5086eccfa72643111fdf6c@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en septembre (redevables mensuels) ou les salaires payés au cours du 3ème trimestre (redevables trimestriels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
 SUMMARY:Taxe sur les salaires
-UID:dbb2ad030d3acd294736e8ba1f23ec076898ddc9@calendrier-fiscal-impots
+UID:f9e5b4801c6c5c9c76231a2f3de034beabdeba2f@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261116
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en octobre (redevables mensuels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Taxe sur les salaires
+UID:3d19d465b7344ffca3bfeb7286f171da22adb063@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260707
+DESCRIPTION:Date limite pour la télédéclaration DSN de juin 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Prélèvement à la source – DSN
+UID:53bc9e430a45b4ea5ba60bf683ef76e14ceea73c@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:CVAE - Date limite de souscription de la télédéclaration n° 1329-DEF de liquidation et de régularisation de la CVAE 2025\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:CVAE - Echéance solde 2025
+UID:07a810cb187ab6954e8128cc36d7b8a4a34d7483@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260930
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1 er septembre 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:TVA - franchise en base
+UID:eddb4683807434570d70f9ede96ea6971c45dd29@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois de juin 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Taxe sur les conventions d'assurances
+UID:aaac48b2772b1ea69002ef53ce7d4ed961f10d1d@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260811
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) de juillet 2026 et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Prélèvement à la source – PASRAU
+UID:1a8e4d26c91a1b67b50d8b2d4c99f3d35d51fbd0@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261130
+DESCRIPTION:Date limite de souscription de :\nla déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Entreprises dont l'exercice est clos le 31 août 2026
+UID:e8f84336e045afcf4ba49ff1111209f8799a7738@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260531
 DESCRIPTION:Jusqu’à cette date\, il est possible d’acquitter l’acompte de CFE et/ou d’IFER en optant pour le prélèvement à l’échéance. L'adhésion peut être effectuée sur le site impots.gouv.fr\, ou en téléphonant au 0809 401 401 (du lundi au vendredi de 8h30 à 19h\, service gratuit + prix de l'appel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
 SUMMARY:Acompte de CFE et/ou d’IFER : Adhésion au prélèvement à l’échéance
-UID:686d42064bc47b549c4ebbcdb65225e8b1817bf0@calendrier-fiscal-impots
+UID:234a70d2846f0cf09f559d915ba9bf0f42bcc482@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260526
-DESCRIPTION:Date limite de dépôt de la déclaration mensuelle n°2040-TIC pour les redevables de l’accise sur l’électricité en rythme mensuel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
-UID:9a37f4be86e96d3f309a772ffbd2c0d7917e1fc0@calendrier-fiscal-impots
+DTSTART;VALUE=DATE:20261026
+DESCRIPTION:Date limite de dépôt de la déclaration d’acompte n°2020-TGAP-AC au titre de la TGAP 2026 pour les redevables soumis au régime simplifié d’imposition en TVA.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Taxe Générale sur les Activités Polluantes (TGAP)
+UID:0bbae91e5d1beb9ac56f27cfe6941d487afd0741@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+DTSTART;VALUE=DATE:20260817
+DESCRIPTION:Entre les 17 et 25 août 2025\, dépôt et paiement de la déclaration mensuelle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:TVA régime réel normal d'imposition
+UID:4d6e3d81022ed5fa1d2ebd1ec416d1679767c2cd@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261116
+DESCRIPTION:Date limite de télépaiement du solde de l'impôt sur les sociétés et de la contribution sociale sur l'IS de 3\,3 %\, à l'aide du relevé de solde n° 2572 si votre exercice est clos le 31 juillet 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
 SUMMARY:Sociétés soumises à l'IS
-UID:02a1d2f5863cc216c18f9e58e12af5fe3cd2144e@calendrier-fiscal-impots
+UID:f5a197b2dc343911abafac91adbb2e0ba1fb24ee@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Prélèvement à la source – DSN
-UID:008c177ce9cd0796cd3e6c547f3b5a8d404f273d@calendrier-fiscal-impots
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de dépôt de la déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France\, dont l'exercice est clos le 31/12/2025.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Sociétés soumises à la retenue à la source
+UID:5824baf15e159c46695d899077a2bf69b99eb9d1@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260529
-DESCRIPTION:Date limite de dépôt de l’annexe n° 2040-TIC-LC à la déclaration de résultats (listes des clients non-domestiques prélevés en exonération ou à tarif réduit d’accise sur l’électricité\, les gaz naturels et les charbons).\nDate limite de souscription de :\nde la déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
-SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
-UID:23ab7e3008b7aaa70f8be08b4b2aa98db1dc3a1a@calendrier-fiscal-impots
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de souscription des déclarations n os 2071 et 2072 - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Sociétés civiles immobilières
+UID:56d31bab48f54140d481ac235ced7a86030568a5@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260812
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en juillet 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Entreprises soumises à la TVA
+UID:65ac8a6ad45ef9f4e880228d364ec655cfb011c3@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261116
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois d'octobre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Taxe sur les conventions d'assurances
+UID:6a406ae9e6a18620905d311f23e10d06adcba279@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:CVAE - Date limite de télépaiement du second acompte CVAE 2026 via le formulaire n°1329 AC\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:CVAE - Echéance d'acompte CVAE 2026
+UID:e69fe6ae5f70252a73dba8d954bf539b5bdad4bb@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260616
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois de mai 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Taxe sur les conventions d'assurances
+UID:e61c8d0b7f9a0010b1aad6adff7cc0a31b552773@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260505
 DESCRIPTION:Date limite de souscription de la déclaration de résultats - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
 SUMMARY:Sociétés de personnes soumises à l'impôt sur le revenu (hors SCM)
-UID:d8ce8e42f2d4e9589178d8c4e5c034f4d22bc81a@calendrier-fiscal-impots
+UID:190ab7d1cd37f7072e31bf862a632df8dcedf788@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+DESCRIPTION:Date limite de souscription de :\nla déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Entreprises dont l'exercice est clos le 31 juillet 2026
+UID:8ed07fdc15bbb3b947ca39f084f469ba150b31d2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1 er juillet 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:TVA - franchise en base
+UID:6fce7d2b713964d127b0bcc41b2b00c759de6599@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260825
+DESCRIPTION:Date limite de dépôt de la déclaration mensuelle n°2040-TIC pour les redevables de l’accise sur l’électricité en rythme mensuel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:fdc0761b1df3670f30cf37a0c09a4d57c21dc035@calendrier-fiscal-impots
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260515
-DESCRIPTION:Source : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+DESCRIPTION:Date limite de télépaiement du solde de l'IS et de la contribution sociale sur l'IS de 3\,3 % à l'aide du relevé de solde n° 2572\, si votre exercice est clos le 31 décembre 2025 ou le 31 janvier 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Sociétés soumises à l'IS
+UID:7fb056aa647bb1b211d70a49fb04ef2e17e9a7e2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de :\nsouscription de la déclaration n° 2072 des résultats des SCI non soumises à l'IS - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\npaiement\, le cas échéant\, de la contribution sur les revenus locatifs à l'appui de la déclaration n° 2072 \;\ndépôt de la déclaration n° 2071 des résultats des sociétés immobilières de copropriété n° 1655 ter.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Résultats soumis à l'impôt sur le revenu
+UID:a8c4638d2cf050dabafc8a63b1b8d65e05228c9f@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260812
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en juillet 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Entreprises soumises à la TVA
+UID:4f15f203faa4f13b6e4bf326fd641471e9945959@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:Entre les 15 et 24 juillet 2026 : télépaiement de l'acompte semestriel RSI de juillet 2026 à la date limite figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:TVA - régime simplifié
+UID:508cd431b9022d7772caaa14deb045bf8f0f8469@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de dépôt de la déclaration n° 2070 pour l'imposition à taux réduit des revenus du patrimoine et de la déclaration n° 2065 - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures - pour les activités lucratives imposables au taux normal (pour les exercices clos au 31/12/2025).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Associations
+UID:fff0e0a960836136144ab196800adf83e017d5c1@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois de juin 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois de juin 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:ca9e46909cccf5b60ce622b98eecb96573eb2615@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260625
+DESCRIPTION:Date limite de dépôt de la déclaration mensuelle n°2040-TIC pour les redevables de l’accise sur l’électricité en rythme mensuel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:2707bf62e4c18b1c5de5724cd1803940beaad8e0@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260711
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en juin 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Entreprises soumises à la TVA
+UID:c6ed946411ae1994f017eec9b86ba2b31db32aa3@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite pour la télédéclaration DSN d’avril 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Prélèvement à la source – DSN
+UID:161cce11bc2d778ad56470be8cccc5ad533228f7@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois d'août 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois d’août 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:c7410cc85f4c2b4014e18d75f39ee325b54e09df@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois de mai 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois de mai 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:c1e5fd453eb74752c477da7c5f01498130195e99@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260817
+DESCRIPTION:Date limite pour la télédéclaration DSN de juillet 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Prélèvement à la source – DSN
+UID:f791f982c9b2b718b36f1af3db8a52594fb34107@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270105
+DESCRIPTION:Date limite pour la télédéclaration DSN de décembre 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+SUMMARY:Prélèvement à la source – DSN
+UID:3265e49fd78cecfc3bd1b44d1bb92f723d02278a@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de souscription de la télédéclaration de la valeur ajoutée et des effectifs salariés n° 1330-CVAE-SD.\nDélai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:CVAE - Echéance télédéclaration de la valeur ajoutée et des effectifs salariés
+UID:9785fbb0541563fefaaa70e9795f08ed18864916@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260512
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) d’avril 2026 et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Prélèvement à la source – PASRAU
+UID:28213e8818ba6c22c6be2be7800e58cc236c4ee2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois de septembre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Taxe sur les conventions d'assurances
+UID:e8a82060f55b77369d4398e1a1470c59645be6c7@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de souscription du formulaire n° 3517 AGR CA12A.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:TVA - régime simplifié agricole
+UID:d24aefc33081b379c199172dd963b99ae2f760ab@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260911
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en août 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Entreprises soumises à la TVA
+UID:31bc594dc62c7c2a2493ff61509099ce2c8683b3@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Entre les 15 et 24 octobre 2026 : paiement du 2ème acompte de TSN pour les redevables déposant des déclarations mensuelles de TVA ou non assujettis à la TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Taxe sur les services numériques (TSN)
+UID:6174cc546662e2f8d631596374a0d604310d8872@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260805
+DESCRIPTION:Date limite pour la télédéclaration DSN de juillet 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Prélèvement à la source – DSN
+UID:0738200f3a30fbb3875ea0ae072eda79df398be9@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270331
+DESCRIPTION:Date limite : • pour la télédéclaration et le télépaiement de l'impôt complémentaire dû en France\, à l'aide du relevé de paiement n° 2272-SD\, si votre exercice est clos le 31 décembre 2025 \; • de souscription de la déclaration d'informations n° 2259-SD de l'exercice clos le 31 décembre 2025.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-03
+SUMMARY:Imposition minimale mondiale des groupes (Pilier 2)
+UID:9079de5c1883e59b2746e3a09acfd758866c2ae5@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DESCRIPTION:Date limite de dépôt de la déclaration mensuelle n°2040-TIC pour les redevables de l’accise sur l’électricité en rythme mensuel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:8fa330c85ea7ad8c6f8c8ebf17aa8a0d963c3cc2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de dépôt de la déclaration n° 2036 - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Sociétés civiles de moyens
+UID:e43e27f504ad6d8b01a4f07666b61ab617cae5ff@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:Date limite de télépaiement :\nde l'acompte de l'impôt sur les sociétés (IS) et de la contribution sociale sur l'IS de 3\,3 % à l'aide du relevé d'acompte n° 2571 \;\ndu solde de l'impôt sur les sociétés (IS)et de la contribution sociale sur l'IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exercice est clos le 31 mai 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Sociétés soumises à l'IS
+UID:58e4f7d9b024cb7facac793ff2ef4f150854c1e6@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de souscription de la déclaration de résultats n° 2065 de l'exercice clos le 31 décembre 2025 pour les entreprises passibles de l'impôt sur les sociétés - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Sociétés soumises à l'impôt sur les sociétés
+UID:809d9203f5f5ed0eb324477dde9f14756e98b2f7@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:Entre les 15 et 24 décembre 2026 : télépaiement de l'acompte semestriel RSI de décembre 2026 à la date limite figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:TVA - régime simplifié
+UID:3fbf9d8151030a7a74a13f142c1d7979472acccd@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260925
+DESCRIPTION:Date limite de dépôt de la déclaration mensuelle n°2040-TIC pour les redevables de l’accise sur l’électricité en rythme mensuel\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:303f2e1adcb7d94de73ee0dbd6ffedba79dfc9e4@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:Entre les 15 et 24 septembre 2026\, dépôt et paiement de la déclaration mensuelle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
 SUMMARY:TVA régime réel normal d'imposition
-UID:d0b66674306dd17e3cb38ca470aab25ddbc0ac09@calendrier-fiscal-impots
+UID:d8e0090f176949f4e7c1dca115e84ca442891f7a@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:CVAE - Date limite de télépaiement du premier acompte CVAE 2026 via le formulaire n°1329 AC\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:CVAE - Echéance d'acompte CVAE 2026
+UID:644657a2b801b14990d51a9e187fe0f060542c16@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:Date limite de télépaiement du solde de l'impôt sur les sociétés (IS) et de la contribution sociale sur l'IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exercice est clos le 31 mars 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Sociétés soumises à l'IS
+UID:12e632a03a1413a1992b2fe0a57b01c2603f33d4@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois d'avril 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe sur les conventions d'assurances
+UID:dd90327185a20761c313c70f5aee3d547cc3eb93@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois d'avril 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois d'avril 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:90e28b4af33e1ad3cac0ebb60f19d3747f359473@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260817
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois de juillet 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Taxe sur les conventions d'assurances
+UID:e648e86631878bb32e25fb5d2ee88775ad146100@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:Date limite pour la télédéclaration DSN d’août 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Prélèvement à la source – DSN
+UID:fc511044967a7dce660f19215e0dfe9a602e18d3@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261231
+DESCRIPTION:Date limite de dépôt de la déclaration (n° 1447-C) en cas de création d'établissement ou de changement d'exploitant intervenus en 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:CFE
+UID:306e3802f3d73dfea8dc4a87f6d795fa50494bc2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261012
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en septembre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Entreprises soumises à la TVA
+UID:ef9067d91d935e0b3765f785b6d11e82920e5452@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261110
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) d’octobre 2026 et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Prélèvement à la source – PASRAU
+UID:90093ecdbbb9c648d0ae9b1fd30f3e0e65056c2a@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270115
+DESCRIPTION:Date limite pour la télédéclaration DSN de décembre 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel et option de paiement trimestriel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+SUMMARY:Prélèvement à la source – DSN
+UID:78fdae7e2f693bc7512b663cc58b498b2c6244e0@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en juin (redevables mensuels) ou les salaires payés au cours du 2ème trimestre (redevables trimestriels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Taxe sur les salaires
+UID:3ff57f877942f268da5e1656588b56860500e93d@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261010
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) de septembre 2026 et le télépaiement (paiement mensuel et option de paiement trimestriel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Prélèvement à la source – PASRAU
+UID:28a10494965bbeed558ad88eba2005b35ad1794b@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261231
+DESCRIPTION:Date limite de souscription de :\nla déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Entreprises dont l'exercice est clos le 30 septembre 2026
+UID:6deed3feb4e72a31959f22f536d2e9d7273203ba@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261006
+DESCRIPTION:Date limite pour la télédéclaration DSN de septembre 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Prélèvement à la source – DSN
+UID:23e41389b921ee3304e1ea85246a4272a1316113@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261130
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1 er novembre 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:TVA - franchise en base
+UID:874bb9f46bbf714f74a1bb37a6482e9681a71a16@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en avril 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Entreprises soumises à la TVA
+UID:cc92c08bb1fda3c9ffa1cb70cd420eb460d27699@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261130
+DESCRIPTION:Jusqu’à cette date\, il est possible d’acquitter le solde de CFE et/ou d’IFER en optant pour le prélèvement à l’échéance. L'adhésion peut être effectuée sur le site impots.gouv.fr\, ou en téléphonant au 0809 401 401 (du lundi au vendredi de 8h30 à 19h\, service gratuit + prix de l'appel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:CFE et/ou IFER (solde) : Adhésion au prélèvement à l’échéance
+UID:cb02d5a90fa408cf92f7b9c23a2d5c0b0c2572f0@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:Date limite de paiement du solde de la CFE et/ou de l’IFER par paiement direct en ligne (télérèglement) pour les redevables non mensualisés ou n’ayant pas opté pour le prélèvement à l’échéance.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:CFE et/ou IFER (solde) : Date limite de paiement
+UID:7d5b3a03c74a57fe6ba1f42a570e78a1222f40de@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de paiement du solde de TSN 2025 pour les redevables au régime réel simplifié de TVA clôturant le 31 décembre 2025.\nPour les redevables au régime réel simplifié de TVA ne clôturant pas au 31 décembre\, dans les 3 mois qui suivent la clôture de l’exercice.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe sur les services numériques (TSN)
+UID:92a622c4cfa41b735725e302dcd2aedc81843fff@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260610
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) de mai 2026 et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Prélèvement à la source – PASRAU
+UID:89b2927bbdc716e19af74ac308beccc378012b13@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Si l'entreprise relève d'un régime simplifié d'imposition ou du régime simplifié agricole : les taxes doivent être déclarées et payées sur la déclaration 3517 CA12.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe sur les véhicules de tourisme (taxe sur les émissions de dioxyde de carbone \; taxe sur l’ancienneté des véhicules)
+UID:4130784ed48217fe10c11a9f89a24ffe3d424d48@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260817
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois de juillet 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois de juillet 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-08
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:a4675bc2f2b14f9d1842c94fbe078229474cc9a6@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261105
+DESCRIPTION:Date limite de dépôt du bulletin d'échéance n° 3525 bis relatif au troisième trimestre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Agriculteurs soumis au régime simplifié agricole et déposant une CA12A annuelle
+UID:c3e92dbaed0b906ee150bf0389c27db7581034f1@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DESCRIPTION:À partir de cette date et avant l’échéance de paiement\, les avis d’acompte dématérialisés sont consultables dans l'espace professionnel sur le site impots.gouv.fr.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:CFE et/ou IFER (acompte) : Mise en ligne des avis d'acompte
+UID:577eb9642080ec3ccc2e7ed1fbf493f28429b6ae@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en avril 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Entreprises soumises à la TVA
+UID:84d1153f2a157ea6374d4f27d827778280e74368@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261116
+DESCRIPTION:Date limite pour la télédéclaration DSN d’octobre 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Prélèvement à la source – DSN
+UID:be9ada82b8eb6bf35b7eb85e2167264fdbc0ceb9@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260611
+DESCRIPTION:Date limite de dépôt de l'état récapitulatif des clients pour les opérations intracommunautaires réalisées en mai 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Entreprises soumises à la TVA
+UID:ee0d2dd15fae639985e49914ef9fff4349f56d7b@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261012
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en septembre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Entreprises soumises à la TVA
+UID:0b04c34cf1253711fa1dd7d47904fbb6209f95de@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Date limite de télépaiement du solde de l'impôt sur les sociétés (IS)et de la contribution sociale sur l'IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exercice est clos le 30 juin 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Sociétés soumises à l'IS
+UID:16786e9ca244226067249ced91c51d1ea066ae5b@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Date limite de paiement de la taxe sur les surfaces commerciales pour les établissements exploités au 1 er janvier 2026 (n° 3350).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Taxe sur les surfaces commerciales (TASCOM)
+UID:c302d688d1bde13af4e4317acfb480d22f734315@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261205
+DESCRIPTION:Date limite pour la télédéclaration DSN de novembre 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Prélèvement à la source – DSN
+UID:16675fe710d6b4b73ad07993e310ab1389a1e566@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
+DESCRIPTION:Date limite de souscription de :\nla déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Entreprises dont l'exercice est clos le 30 avril 2026
+UID:c230af8a5126693da860cec78305b7e0fc54a45e@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260727
+DESCRIPTION:Date limite de dépôt de la déclaration n°2040-TIC mensuelle ou trimestrielle pour l’accise sur l’électricité\, trimestrielle pour l’accise sur les gaz naturels et l’accise sur les charbons en rythme trimestriel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:46253f13b5ef72e3944cb0d9c82e7fc3f258fb3f@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Entre les 15 et 26 mai 2026 : date limite de dépôt de la déclaration de solde n°2020-TGAP au titre de la TGAP 2025 y compris déchets pour les redevables soumis au régime réel normal mensuel en TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe Générale sur les Activités Polluantes (TGAP)
+UID:b31c2668317bd2c2b0379fd96313f4721d270bb1@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260529
+DESCRIPTION:Date limite de dépôt de l’annexe n° 2040-TIC-LC à la déclaration de résultats (listes des clients non-domestiques prélevés en exonération ou à tarif réduit d’accise sur l’électricité\, les gaz naturels et les charbons).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:0b2c81bbbf3684f07abbf89e59b43e1dcf079d1a@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+DESCRIPTION:Modalités de renonciation : les agriculteurs redevables de la TVA sur option et qui entendent y renoncer à partir du 1er janvier 2027 (à l'expiration de la période d'option en cours) doivent formuler auprès de leur service des impôts des entreprises leur renonciation deux mois avant l'expiration de la période d'option.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:TVA - Agriculteurs redevables de la TVA sur option
+UID:99fd1e539e91072d0f3ec432705b57656b87f150@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) de novembre 2026 et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Prélèvement à la source – PASRAU
+UID:fca974e7aba15b701336623d4c3457c377092beb@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261027
+DESCRIPTION:Date limite de dépôt de la déclaration n°2040-TIC mensuelle ou trimestrielle pour l’accise sur l’électricité\, trimestrielle pour l’accise sur les gaz naturels et l’accise sur les charbons en rythme trimestriel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Accise sur l’électricité\, les gaz naturels et les charbons
+UID:7c7478e51907d091127a2c2d29001de297e230c4@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260611
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en mai 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Entreprises soumises à la TVA
+UID:4cfa4ac8346b60d1d1360cc97ff9f05038f03a8a@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Entre les 15 et 24 octobre 2026\, dépôt et paiement de la déclaration mensuelle ou trimestrielle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:TVA régime réel normal d'imposition
+UID:19332fae074c16327cb84dc304ee243644f8ad57@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en novembre (redevables mensuels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Taxe sur les salaires
+UID:c00ed7693abf5060abc365b9741ab845837c926d@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1 er octobre 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:TVA - franchise en base
+UID:d91333e97d71ed26ff8c34280c1c02751cb95a36@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261026
+DESCRIPTION:Date limite de dépôt de la déclaration d’acompte n°2020-TGAP-AC au titre de la TGAP 2026 pour les redevables non imposables ou en franchise de TVA.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Taxe Générale sur les Activités Polluantes (TGAP)
+UID:1bacca75ab01460893d0cc5627d25559e39c8352@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de télétransmission du bulletin d'échéance n° 3525 bis relatif au premier trimestre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Agriculteurs soumis au régime simplifié agricole et déposant une déclaration CA12A annuelle
+UID:3456dfc6790fc60c14eb48008bde3ae836015bc5@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260910
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) d’août 2026 et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Prélèvement à la source – PASRAU
+UID:c423fb26f44c080465c8fc7d3621ce7637d482e5@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en août (redevables mensuels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Taxe sur les salaires
+UID:def73930d7991938b740bf5218c13ea6321ed175@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois de septembre 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois de septembre 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:7613a5a88eed2b36840b7c0ccf713618d01b3cfe@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Date limite pour la télédéclaration DSN de mai 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Prélèvement à la source – DSN
+UID:9c79b231fc7520b3aa5b80499bde795514db2acd@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Entre les 15 et 26 mai 2026\, dépôt et paiement de la déclaration mensuelle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:TVA régime réel normal d'imposition
+UID:f7deab3785b18586101dd36a11ab2dbc3c251763@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:Date limite de télépaiement :\nde l'acompte de l'impôt sur les sociétés (IS)\, de la contribution sociale sur l'IS de 3\,3 % à l'aide du relevé d'acompte n° 2571 \;\ndu solde de l'IS et de la contribution sociale sur l'IS de 3\,3 %\, à l'aide du relevé de solde n° 2572\, si votre exercice est clos le 31 août 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Sociétés soumises à l'IS
+UID:fff627e51b327e0ba6da0fe192667b53374cfced@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260930
+DESCRIPTION:Date limite de souscription de :\nla déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Entreprises dont l'exercice est clos le 30 juin 2026
+UID:c64262f57c82df0f403fd8fc46b5d60cbf9da774@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261116
+DESCRIPTION:Entre les 16 et 24 novembre 2026\, dépôt et paiement de la déclaration mensuelle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:TVA régime réel normal d'imposition
+UID:4b433179ef9ae4b319210204bc6ba41b389315d1@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Date limite de télépaiement de la taxe concernant les salaires payés en avril (redevables mensuels) à l'aide du relevé de versement provisionnel n° 2501.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe sur les salaires
+UID:db398992eadffbd25132dcc9155ada499dd9c0dc@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+DESCRIPTION:Date limite de renonciation à l'option pour le paiement de la TVA sur les acquisitions intracommunautaires pour les personnes bénéficiant du régime dérogatoire et désirant abandonner cette option à partir du 1er janvier 2027 (à l'expiration de la période d'option en cours). La dénonciation de l'option doit être réalisée par écrit auprès de leur service des impôts des entreprises.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:TVA - Personnes bénéficiant du régime dérogatoire
+UID:457127a432db9f020027b897424c45d24f562af3@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:Date limite pour la télédéclaration DSN de novembre 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Prélèvement à la source – DSN
+UID:59eba0bb1eb1485e8d9e6a06f25e0d044b3e974e@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Entre les 15 et 24 juin 2026\, dépôt et paiement de la déclaration mensuelle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:TVA régime réel normal d'imposition
+UID:d75b0676f103b4f1f49d21962ebf96f8ee834579@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261113
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en octobre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Entreprises soumises à la TVA
+UID:e481a4caf292384b3946893b425a7c992f883916@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260711
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en juin 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-07
+SUMMARY:Entreprises soumises à la TVA
+UID:2d9fcc01d2516cfc89fe7f7ee0c97f1d3676583f@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260530
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1 er mai 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:TVA - franchise en base
+UID:2f3f2b5010bc8053b8bc4c336977aa9948286a88@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de souscription de la déclaration de résultats et ses annexes de l'année 2025 pour les professionnels soumis à l'impôt sur le revenu dans la catégorie des BIC\, des BNC et des BA - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Entreprises individuelles soumises à l'impôt sur le revenu : BIC\, BNC et BA
+UID:f4aea86136939582558482dbbe968c9c18b135c8@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260605
+DESCRIPTION:Date limite pour la télédéclaration DSN de mai 2026 et le télépaiement (entreprises de 50 salariés ou plus).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Prélèvement à la source – DSN
+UID:c496b09d5b1f33682c0f966285f159b2dba33ce4@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260911
+DESCRIPTION:Date limite de dépôt de la DES (déclaration européenne de services) pour les opérations intracommunautaires réalisées en août 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-09
+SUMMARY:Entreprises soumises à la TVA
+UID:2f8493e0016216e279632b025e3fbd4473f7a170@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DESCRIPTION:Entre les 15 et 26 mai 2026 : dépôt et paiement de l’annexe 3310 A pour les redevables au régime réel normal de TVA à la date de dépôt de la déclaration de TVA figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe sur les produits phytopharmaceutiques
+UID:043323dc1e54d964812c6891973ebd27dc290137@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270112
+DESCRIPTION:Date limite pour la télédéclaration PASRAU (revenus de remplacement) de décembre 2026 et le télépaiement (paiement mensuel et option de paiement trimestriel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2027-01
+SUMMARY:Prélèvement à la source – PASRAU
+UID:a445199c46bf538d8d1863a0175996f675e7bfff@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260529
+DESCRIPTION:Date limite de souscription de :\nde la déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Entreprises dont l'exercice est clos le 28 février 2026
+UID:f674066c30c2cb3620bc0ff7b86895f8d97387d2@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:La taxe due doit être télédéclarée et télépayée avec le formulaire n°2787-SD au titre des primes émises\, des conventions conclues et des sommes échues au cours du mois de novembre 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:Taxe sur les conventions d'assurances
+UID:4d3c5ea3adeee79e383b3da38d416e03f85bc6d4@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de paiement pour les redevables au régime réel simplifié de TVA (y compris au régime simplifié de l’agriculture) clôturant le 31 décembre 2025. Pour les redevables au régime simplifié de TVA ne clôturant pas au 31 décembre\, la date limite de paiement est fixée au dernier jour du 3 e mois suivant la clôture de l’exercice (cinquième jour du cinquième mois suivant la clôture de l’exercice pour les redevables au régime simplifié de l’agriculture de TVA).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Taxe due par les employeurs de main d’ œuvre étrangère
+UID:373f801769099254c32079e50a9feea8e545c76e@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DESCRIPTION:Date limite de télépaiement :\nde l'acompte de l'impôt sur les sociétés et de la contribution sociale sur l'IS de 3\,3 % à l'aide du relevé d'acompte n° 2571 \;\ndu solde de l'impôt sur les sociétés et de la contribution sociale sur l’IS de 3\,3 % à l'aide du relevé de solde n° 2572\, si votre exercice est clos le 28 février 2026.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Sociétés soumises à l'IS
+UID:46884c5a5e501b84e3288439656a0824b673e589@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260630
+DESCRIPTION:Date limite d'option pour le paiement de la TVA à partir du 1 er juin 2026 pour les entreprises bénéficiant de la franchise en base (article 293 F du CGI).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:TVA - franchise en base
+UID:462fd2717de276d13718c1555703b49c415c7165@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DESCRIPTION:Entre les 15 et 24 décembre 2026\, dépôt et paiement de la déclaration mensuelle de TVA à la date figurant dans votre espace professionnel.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-12
+SUMMARY:TVA régime réel normal d'imposition
+UID:2ffbb14f6a5d0a1a715875a8369918cef938255a@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260630
+DESCRIPTION:Date limite : • pour la télédéclaration et le télépaiement de l'impôt complémentaire dû en France\, à l'aide du relevé de paiement n° 2272-SD\, si votre exercice est clos le 31 décembre 2024 (18 mois à compter de la clôture du 1er exercice puis 15 mois pour les exercices suivants) \; • de souscription de la déclaration d'informations n° 2259-SD de l'exercice clos le 31 décembre 2024 (18 mois à compter de la clôture du 1er exercice puis 15 mois pour les exercices suivants).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Imposition minimale mondiale des groupes (Pilier 2)
+UID:e379d6055145aa6805eb76384f32652febf6dcd9@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261015
+DESCRIPTION:Date limite pour la télédéclaration DSN de septembre 2026 (entreprises de moins de 50 salariés) et le télépaiement (paiement mensuel et option de paiement trimestriel).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-10
+SUMMARY:Prélèvement à la source – DSN
+UID:5e6a9aceb4861a66345d5c6952e543a632426d32@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260630
+DESCRIPTION:Date limite de souscription de :\nla déclaration de résultats n° 2065 et ses annexes (impôt sur les sociétés) - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures \;\nla notification n° 2065-INT pour les entités appartenant à un groupe dans le champ du Pilier 2 \;\nla déclaration de retenue à la source n° 2754 pour les entreprises étrangères exploitant un établissement stable en France \;\nla télédéclaration annuelle n° CA12 E (TVA - régime simplifié).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-06
+SUMMARY:Entreprises dont l'exercice est clos le 31 mars 2026
+UID:d3fefe9b4a3e1ce940dd0336a505a3f8e41f9c1b@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260505
+DESCRIPTION:Date limite de souscription de la notification n° 2065-INT de l'exercice clos le 31 décembre 2025 pour les entités appartenant à un groupe situé dans le champ du Pilier 2 - délai supplémentaire de 15 jours calendaires accordé aux utilisateurs des téléprocédures.\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal
+SUMMARY:Imposition minimale mondiale des groupes (Pilier 2)
+UID:8b970aea9ac18cfaaa9973fa4e927a7c4b64e65b@calendrier-fiscal-impots
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261116
+DESCRIPTION:Date limite de :\ndépôt de la déclaration de retenue à la source sur les revenus des obligations et autres titres d'emprunt négociables relative au mois d'octobre 2026 (déclaration n° 2753) \;\ndépôt de la déclaration relative au mois d’octobre 2026 concernant les prélèvements et retenues à la source sur les revenus de capitaux mobiliers (déclaration n° 2777).\nSource : https://www.impots.gouv.fr/professionnel/calendrier-fiscal/2026-11
+SUMMARY:Prélèvement et retenues à la source sur les RCM
+UID:51621e8a887e447ada4dd5ce7dc2a5deb49f9d9a@calendrier-fiscal-impots
 END:VEVENT
 END:VCALENDAR
