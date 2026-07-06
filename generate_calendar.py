@@ -3,6 +3,7 @@ import hashlib
 from datetime import date
 from urllib.parse import urljoin
 
+
 import requests
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
